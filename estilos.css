@@ -1,0 +1,572 @@
+body {
+    background-color: lightblue;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 430px){
+
+    .general {
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+    }
+    
+    header {
+        padding-top: 10px;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .arquetipo1 {
+    
+        color: black;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo1 .nombre1 {
+        width: 35%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo1 .foto1 {
+        width: 80%;
+        height: 160px;
+        padding-right: 5%;
+    }
+    
+    .arquetipo1 .aspiracion {
+        width: 80%;
+        padding-right: 5%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo1 .informacion {
+        padding-top: 15px;
+        float: left;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .arquetipo2 {
+    
+        color: black;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo2 .nombre2 {
+        width: 35%;
+        text-align: center;
+        color: black;
+        float: right;
+    }
+    
+    .arquetipo2 .foto2 {
+        width: 80%;
+        height: 160px;
+        padding-left: 5%;
+    }
+    
+    .arquetipo2 .aspiracion {
+        width: 80%;
+        padding-left: 10%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo2 .informacion {
+        padding-top: 15px;
+        float: right;
+    
+    }
+    
+    
+    
+    .arquetipo3 {
+    
+        color: black;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo3 .nombre3 {
+        width: 35%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo3 .foto3 {
+        width: 80%;
+        height: 160px;
+        padding-right: 5%;
+    }
+    
+    .arquetipo3 .aspiracion {
+        width: 80%;
+        padding-right: 5%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo3 .informacion {
+        padding-top: 15px;
+        float: left;
+    
+    }
+    
+    
+    .lista-analisis {
+        padding-left: 15%;
+        padding-right: 15%;
+    
+    
+    }
+    
+    .estrategia{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .estrategia-titulo{
+        text-align: center;
+    }
+    .estrategia-imagen{
+        width: 100%;
+    
+    }
+    
+    .alcance {
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    
+    .caja {
+        display: grid;
+        grid-template-columns: lr lr lr;
+        grid-template-rows: auto;
+        gap: 5px;
+        grid-template-areas:
+            "caja1 caja2 caja5"
+            "caja3 caja4 caja5";
+        
+    }
+    
+    .caja3{
+        
+        padding-top: 10%;
+    }
+
+
+}
+
+
+
+@media (max-width: 429px){
+
+    .general {
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+    }
+    
+    header {
+        padding-top: 10px;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .arquetipo1 {
+    
+        color: black;
+        width: 80%;
+        font-size: 12px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo1 .nombre1 {
+        width: 35%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo1 .foto1 {
+        width: 80%;
+        height: 120px;
+        padding-right: 5%;
+    }
+    
+    .arquetipo1 .aspiracion {
+        text-align: 5px;
+        width: 80%;
+        padding-right: 5%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo1 .informacion {
+        padding-top: 15px;
+        float: left;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .arquetipo2 {
+    
+        color: black;
+        width: 80%;
+        font-size: 12px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo2 .nombre2 {
+        width: 35%;
+        text-align: center;
+        color: black;
+        float: right;
+    }
+    
+    .arquetipo2 .foto2 {
+        width: 80%;
+        height: 120px;
+        padding-left: 5%;
+    }
+    
+    .arquetipo2 .aspiracion {
+        width: 80%;
+        padding-left: 10%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo2 .informacion {
+        padding-top: 15px;
+        float: right;
+    
+    }
+    
+    
+    
+    .arquetipo3 {
+    
+        color: black;
+        width: 80%;
+        font-size: 12px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo3 .nombre3 {
+        width: 35%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo3 .foto3 {
+        width: 80%;
+        height: 120px;
+        padding-right: 5%;
+    }
+    
+    .arquetipo3 .aspiracion {
+        width: 80%;
+        padding-right: 5%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo3 .informacion {
+        padding-top: 15px;
+        float: left;
+    
+    }
+    
+    
+    .lista-analisis {
+        padding-left: 15%;
+        padding-right: 15%;
+    
+    
+    }
+    
+    .estrategia{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .estrategia-titulo{
+        text-align: center;
+    }
+    .estrategia-imagen{
+        width: 100%;
+    
+    }
+    
+    .alcance {
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    
+    .caja {
+        display: grid;
+        grid-template-columns: lr lr lr;
+        grid-template-rows: auto;
+        gap: 5px;
+        grid-template-areas:
+            "caja1 caja2 caja5"
+            "caja3 caja4 caja5";
+        
+    }
+    
+    .caja3{
+        
+        padding-top: 10%;
+    }
+
+
+}
+
+
+@media (min-width: 431px){
+
+    .general {
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+    }
+    
+    header {
+        padding-top: 10px;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+    head p {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .arquetipo1 {
+    
+        color: black;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo1 .nombre1 {
+        width: 100%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo1 .foto1 {
+        width: 40%;
+        padding-right: 5%;
+    }
+    
+    .arquetipo1 .aspiracion {
+        width: 45%;
+        padding-left:25%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo1 .informacion {
+        padding-top: 15px;
+        float: left;
+    
+    }
+    
+    .arquetipo2 {
+    
+        color: black;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo2 .nombre2 {
+        width: 100%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo2 .foto2 {
+        width: 40%;
+        padding-left: 5%;
+    }
+    
+    .arquetipo2 .aspiracion {
+        width: 45%;
+        padding-left:25%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo2 .informacion {
+        padding-top: 15px;
+        float: right;
+    
+    }
+    
+    
+    .arquetipo3 {
+    
+        color: black;
+        width: 80%;
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: white;
+        padding-top: 0px;
+        margin: 0px;
+    
+    }
+    
+    .arquetipo3 .nombre3 {
+        width: 100%;
+        text-align: center;
+        color: black;
+        float: left;
+    }
+    
+    .arquetipo3 .foto3 {
+        width: 40%;
+        padding-right: 5%;
+    }
+    
+    .arquetipo3 .aspiracion {
+        width: 45%;
+        padding-left:25%;
+        color: rebeccapurple;
+    }
+    
+    .arquetipo3 .informacion {
+        padding-top: 15px;
+        float: left;
+    
+    }
+    
+    
+    .lista-analisis {
+        padding-left: 15%;
+        padding-right: 15%;
+    
+    
+    }
+    
+    .estrategia{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .estrategia-titulo{
+        text-align: center;
+    }
+    .estrategia-imagen{
+        width: 100%;
+    
+    }
+    
+    .alcance {
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    
+    .caja {
+        display: grid;
+        grid-template-columns: lr lr lr;
+        grid-template-rows: auto;
+        gap: 5px;
+        grid-template-areas:
+            "caja1 caja2 caja5"
+            "caja3 caja4 caja5";
+        
+    }
+    
+    .caja3{
+        
+        padding-top: 10%;
+    }
+
+
+}
